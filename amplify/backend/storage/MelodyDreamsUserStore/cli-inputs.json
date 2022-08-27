@@ -1,0 +1,13 @@
+{
+  "resourceName": "MelodyDreamsUserStore",
+  "policyUUID": "c7f44eed",
+  "bucketName": "melodydreamsregisteredusers",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE"
+}
