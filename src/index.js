@@ -8,7 +8,7 @@ import { createStore } from 'fluxible-js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-InitializeStore({
+createStore({
   initialStore: {
     authUser: null
   },
