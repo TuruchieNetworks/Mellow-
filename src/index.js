@@ -4,21 +4,20 @@ import './index.css';
 import { ThemeProvider, styled } from '@mui/material/styles';
 import { Theme } from '@mui/material/styles';
 import theme from './theme';
-import { createStore } from 'fluxible-js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-createStore({
-  initialStore: {
-    authUser: null
-  },
-  persist: {
-    syncStorage: window.localStorage,
-    restore ({ authUser }) {
-      return { authUser };
-    }
-  }
-});
+// createStore({
+//   initialStore: {
+//     authUser: null
+//   },
+//   persist: {
+//     syncStorage: window.localStorage,
+//     restore ({ authUser }) {
+//       return { authUser };
+//     }
+//   }
+// });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
