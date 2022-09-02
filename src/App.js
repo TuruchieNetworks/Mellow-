@@ -18,6 +18,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Landing />
       <Routes>
       <Route exact path='/Landing' element={ <Landing /> } />
       <Route exact path='/Register' element={ <Register /> } />
